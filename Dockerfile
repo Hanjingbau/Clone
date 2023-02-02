@@ -2,10 +2,6 @@
 # As per choice
 FROM ghcr.io/linuxserver/baseimage-ubuntu:arm64v8-jammy
 
-# Change as per VPS
-WORKDIR /usr/src/app
-RUN chmod 777 /usr/src/app
-
 # Make Non-Interactive
 # ENV DEBIAN_FRONTEND="noninteractive"
 
